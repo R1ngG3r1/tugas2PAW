@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Mini Soccer - Pix Arena</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Pix Arena Mini Soccer</h1>
+    </header>
+
+    <main>
+        <section class="box">
+            <h2>Formulir Booking Lapangan</h2>
+
+            <form method="get" action="detail.html">
+                <fieldset>
+                    <div class="grid">
+                        <div class="full">
+                            <label for="nama">Nama</label>
+                            <input type="text" id="nama" name="nama" placeholder="Masukkan nama">
+                        </div>
+                        <div>
+                            <label for="hp">No. Telepon</label>
+                            <input type="tel" id="hp" name="hp" placeholder="08xxxxxxxxxx">
+                        </div>
+                        <div>
+                            <label for="cabang">Cabang</label>
+                            <select id="cabang" name="cabang">
+                                <option value="Cabang Way Halim">Cabang Way Halim</option>
+                                <option value="Cabang Way Kandis">Cabang Way Kandis</option>
+                                <option value="Cabang Way Huwi">Cabang Way Huwi</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="lapangan">Lapangan</label>
+                            <select id="lapangan" name="lapangan">
+                                <option value="Lapangan A">Lapangan A</option>
+                                <option value="Lapangan B">Lapangan B</option>
+                                <option value="Lapangan C">Lapangan C</option>
+                                <option value="Lapangan D">Lapangan D</option>
+                                <option value="Lapangan E">Lapangan E</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label for="tanggal">Tanggal Main</label>
+                            <input type="date" id="tanggal" name="tanggal">
+                        </div>
+                        <div>
+                            <label for="jam">Jam Mulai</label>
+                            <select id="jam" name="jam">
+                                <option value="08.00">08.00</option>
+                                <option value="09.00">09.00</option>
+                                <option value="10.00">10.00</option>
+                                <option value="11.00">11.00</option>
+                                <option value="12.00">12.00</option>
+                                <option value="13.00">13.00</option>
+                                <option value="14.00">14.00</option>
+                                <option value="15.00">15.00</option>
+                                <option value="16.00">16.00</option>
+                                <option value="17.00">17.00</option>
+                                <option value="18.00">18.00</option>
+                                <option value="19.00">19.00</option>
+                                <option value="20.00">20.00</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label>Durasi</label>
+                            <div class="pilihan">
+                                <span>
+                                    <input type="radio" id="satu" name="durasi" value="1 jam" checked>
+                                    <label for="satu">1 jam</label>
+                                </span>
+                                <span>
+                                    <input type="radio" id="dua" name="durasi" value="2 jam">
+                                    <label for="dua">2 jam</label>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <div class="aksi">
+                    <button type="submit">Booking</button>
+                    <a class="tombol" href="detail.html">Detail Booking</a>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Pix Arena &copy; 2026</p>
+    </footer>
+</body>
+</html>
